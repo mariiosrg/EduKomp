@@ -12,7 +12,7 @@ const Hero = () => {
               Your Path to Lifelong Learning
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              EduCourse is your one-stop destination for online learning. Dive
+              EduKomp is your one-stop destination for online learning. Dive
               into a world of knowledge and skill-building with a vast catalog
               of courses taught by experts from around the globe.
             </p>
