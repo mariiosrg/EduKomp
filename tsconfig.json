@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "types": ["next-auth", "node", "dotenv"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/pages/course/[id]/page.jsx",
+    "components/benefits.js",
+    "components/container.js",
+    "components/DarkSwitch.js",
+    "components/data.js",
+    "components/faq.js",
+    "components/footer.jsx",
+    "components/hero.js",
+    "components/navbar.js",
+    "components/popupWidget.js",
+    "components/sectionTitle.js",
+    "components/testimonials.js"
+  ],
+  "exclude": ["node_modules"]
+}
