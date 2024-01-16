@@ -3,6 +3,13 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import prisma from "../../../../server/db/client";
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
+  const session = await getSession({ req });
+
+  if (!session) {
+    res.status(401).json({ message: "Unauthorized" });
+    return;
+  }
+
   try {
     await prisma.$connect();
     const courses = await prisma.course.findMany();
