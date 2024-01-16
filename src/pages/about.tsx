@@ -4,7 +4,7 @@ Container;
 const about = () => {
   return (
     <div className="px-4 md:p-8 lg:px-36 pt-40 min-h-screen space-y-4 pb-10">
-      <Container>
+      <Container className="pt-40">
         <h1 className="text-2xl font-bold text-gray-600 dark:text-white">
           KELOMPOK 4
         </h1>

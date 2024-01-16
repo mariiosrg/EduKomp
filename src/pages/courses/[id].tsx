@@ -27,7 +27,7 @@ const Course = () => {
   }, [setCourse, query.id]);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
+    <div className="flex flex-col items-center justify-center min-h-screen pt-40">
       <GrayTopper />
       <div className="grid grid-cols-12">
         <div className="col-span-12 md:col-span-4 lg:col-span-3">
@@ -74,7 +74,7 @@ function CourseCard() {
   };
 
   return (
-    <div className="md:flex md:justify-center md:h-screen border:none md:border p-5 shadow-lg w-1 md:p-5 md:w-3 lg:my-5 z-20 rounded-lg pt-40">
+    <div className="md:flex md:justify-center md:h-screen border:none md:border p-5 shadow-lg w-1 md:p-5 md:w-3 lg:my-5 z-20 rounded-lg">
       <div className="flex flex-col items-center">
         <img
           className="rounded-lg flex justify-start"
