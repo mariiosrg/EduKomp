@@ -4,7 +4,6 @@ import prisma from "../../../../server/db/client";
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
   const session = await getSession({ req });
-  console.log(session);
 
   if (!session) {
     res.status(401).json({ message: "Unauthorized" });

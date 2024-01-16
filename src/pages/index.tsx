@@ -12,37 +12,38 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>EduCouse - Learn Anything on your schedule</title>
+        <title>EduKomp - Learn Anything on your schedule</title>
         <meta
           name="description"
-          content="EduCourse is a course selling app built with Next.js"
+          content="EduKomp is a course selling app built with Next.js"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
       <SectionTitle
-        pretitle="EduCourse Benefits"
+        pretitle="EduKomp Benefits"
         title=" Why should you choose us?"
       >
         Whether you're looking to enhance your career, explore new hobbies, or
-        further your education, EduCourse offers a diverse range of high-quality
+        further your education, EduKomp offers a diverse range of high-quality
         courses that you can access anytime, anywhere. With user-friendly
         features, personalized recommendations, and a supportive learning
-        community, EduCourse is designed to help you achieve your learning goals
+        community, EduKomp is designed to help you achieve your learning goals
         and unlock your full potential.
       </SectionTitle>
       <Benefits data={benefitOne} />
-      <div>
-        <h1 className="text-2xl font-bold text-center">Promo</h1>
+      <div className="mt-10 space-y-4">
+        <h1 className="text-4xl font-bold text-center">Promo</h1>
         <Promo />
       </div>
-      <div className="mt-10">
-        <h1 className="text-2xl font-bold text-center">Video</h1>
-        <p className="text-center">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore,
-          aliquid ducimus! Ipsum, voluptas distinctio! Enim, ipsum quaerat
-          dicta, ad ratione possimus inventore culpa distinctio nam, ipsa
-          provident officiis tenetur consequuntur.
+      <div className="mt-10 space-y-4">
+        <h1 className="text-4xl font-bold text-center">
+          Free Video Course Sample
+        </h1>
+        <p className="text-lg text-center ">
+          Phyton, is one of the demand skills in programming skills today.
+          Here's our free video sample from one of our courses, Introduction to
+          Phython. Care to know more? Register at EduKomp NOW.
         </p>
         <Video />
       </div>
@@ -53,7 +54,7 @@ const Home = () => {
       <Testimonials />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
         This section answers frequently asked questions we receive about
-        learning with EduCourse.
+        learning with EduKomp.
       </SectionTitle>
       <Faq />
       {/* <PopupWidget /> */}

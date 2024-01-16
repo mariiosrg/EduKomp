@@ -8,8 +8,8 @@ export default function Navbar() {
   const { data: session } = useSession();
 
   return (
-    <div className="w-full">
-      <nav className="container flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between shadow-lg fixed bg-white dark:bg-trueGray-900 z-20">
+    <div className="w-full fixed bg-white dark:bg-trueGray-900 z-20">
+      <nav className="w-full flex flex-wrap justify-between p-8 mx-auto lg:justify-between shadow-lg">
         <Disclosure>
           {({ open }) => (
             <>
